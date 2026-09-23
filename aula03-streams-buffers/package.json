@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+<<<<<<< HEAD
+  "author": "Camila Pinheiro dos Santos",
+=======
   "author": "",
+>>>>>>> 85be0353abe368cfb22198039ec2a90bb8420d72
   "license": "ISC",
   "type": "module"
 }

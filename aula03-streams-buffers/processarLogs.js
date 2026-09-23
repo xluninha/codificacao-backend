@@ -58,4 +58,8 @@ function exibirConsumoMemoria(consumo) {
 }
 
 filtrarErros();
+<<<<<<< HEAD
 filtrarInfos();
+=======
+filtrarInfos();
+>>>>>>> 85be0353abe368cfb22198039ec2a90bb8420d72
