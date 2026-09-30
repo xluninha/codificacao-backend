@@ -1,0 +1,20 @@
+import { Controller, Get } from '@nestjs/common';
+import { AppService } from './app.service.js';
+
+@Controller('status')
+export class AppController {
+  constructor(private readonly appService: AppService) {}
+
+  @Get()
+  getPublic() {
+    return { message: 'Rota Publica Acessada com sucesso' };
+  }
+
+  @Get()
+  getAdmin() {
+    return {
+      message: 'Rota Admin Acessada com sucesso',
+      data: new Date(),
+    };
+  }
+}
