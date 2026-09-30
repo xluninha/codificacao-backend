@@ -1,5 +1,5 @@
 {
-  "name": "codificacao-backend",
+  "name": "aula08-09-metodo-get-post-put-patch-delete",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -46,23 +46,5 @@
     "typescript": "^6.0.2",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^4.1.2"
-  },
-  "name": "codificacao-backend",
-  "version": "1.0.0",
-  "description": "A brief description of what this project does and who it's for",
-  "homepage": "https://github.com/xluninha/codificacao-backend#readme",
-  "bugs": {
-    "url": "https://github.com/xluninha/codificacao-backend/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://xluninha@github.com/xluninha/codificacao-backend.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

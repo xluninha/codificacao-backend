@@ -25,5 +25,3 @@ aula07-fundamentos-nestjs/
 ├── tsconfig.json              # Configurações do compilador TypeScript
 ├── package.json               # Dependências do projeto e scripts de execução
 └── README.md                  # Documentação da aula
-=======
-
