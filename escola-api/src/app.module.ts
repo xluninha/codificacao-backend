@@ -1,0 +1,10 @@
+import { Module } from '@nestjs/common';
+import {MongooseModule} from '@nestjs/mongoose';
+import {AlunosModule} from './alunos/alunos.module.js';
+
+@Module({
+  imports: [ MongooseModule.forRoot('mongodb://localhost/escola'), AlunosModule, ],
+  controllers: [],
+  providers: [],
+})
+export class AppModule {}
