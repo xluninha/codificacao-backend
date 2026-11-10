@@ -1,6 +1,9 @@
-export class UpdateAlunoDto {   
-    nome: string;
-    idade: number;
-    matricula: string
-    cursos: string[];
+import { PartialType } from "@nestjs/mapped-types";
+import { CreateAlunoDto } from "./create-aluno.dto.js";
+
+export class UpdateAlunoDto extends PartialType(CreateAlunoDto){
+  nome:string;
+  idade:number;
+  matricula:string;
+  cursos:string[];
 }
